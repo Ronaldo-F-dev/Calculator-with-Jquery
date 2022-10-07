@@ -1,0 +1,71 @@
+/*  
+    Auteur : AWADEME FINANFA Ronaldo
+    Email: awademeronaldoo@gmail.com
+*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+body{
+    max-width: 100vw;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.calculatrice{
+    width: 340px;
+    height: 470px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 7px;
+}
+input[type="text"]{
+    width: 270px;
+    height: 60px;
+    margin-top: 40px;
+    border-radius: 2px;
+    background-color: gainsboro;
+    border: 1px solid gray;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+}
+form .button{
+    width: 300px;
+    margin: 0 20px 0 20px;
+    padding: 10px 0;
+}
+input[type="button"]{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 22px;
+    line-height: 55px;
+    border: 1px solid rgb(77,77,77);
+}
+input[type="button"]:hover{
+    transition: 0.4s;
+    background-color: rgb(214, 214, 214);
+}
+input#supprimer{
+    color: #fff;
+    border: 1px solid rgb(177 177 177);
+    background-color: rgb(230, 0, 0);
+}
+#resultat{
+    width: 250px;
+    margin: 10px;
+    font-size: 25px;
+    color: #fff;
+    background-color: rgb(2,57,108);
+    font-weight: bold;
+}
